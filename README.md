@@ -1,3 +1,4 @@
+nodejs tests.js
 # Running Tests
 
 You understand how to read tests, now it's time to run the tests. We've made it fairly easy. In the same terminal that you used to write `nodejs tests.js` or `nodejs index.js` now, you just need to write `learn`. That's it! No matter what the lab, our Learn command will figure out where you are and run the appropriate tests and give you results.
@@ -184,3 +185,40 @@ Woah! So many words that make no sense. Don't worry though. The most important l
 One note on this type of error is that it is sort of a catch-all. Tons and tons of problems end in that sort of error message. Whenever you see it, be sure to read over your code with a fine toothed comb...and you'll find the problem!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-what-is-a-test-lab'>What Is A Test Lab</a> on Learn.co and start learning to code for free.</p>
+vr name = "Susan"
+Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/index.js:2
+vr name = "Susan"
+   ^^^^
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/test/index-test.js:1:75)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/node_modules/mocha/lib/mocha.js:220:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (/Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/node_modules/mocha/lib/mocha.js:217:14)
+    at Mocha.run (/Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/node_modules/mocha/lib/mocha.js:469:10)
+    at Object.<anonymous> (/Users/joe/Documents/Documents/flatiron/js-what-is-a-test-lab/node_modules/mocha/bin/_mocha:404:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:393:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:508:3
+    
